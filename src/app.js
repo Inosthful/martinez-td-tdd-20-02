@@ -7,7 +7,6 @@ class Panier {
     appliquerCoupon(coupon, articlePrix) {
         if (!this.couponApplique) {
             for (const articleNom in this.articles) {
-             // Prix de l'article
                 const montantApresRemise = articlePrix * (1 -  coupon.reduction/ 100); 
                 if (montantApresRemise >= 0) { 
                     this.articles[articleNom] = montantApresRemise;
