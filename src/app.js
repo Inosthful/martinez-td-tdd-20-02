@@ -125,7 +125,7 @@ class Stock {
     }
 
 
-
+// uniquement les méthodes je n'ai pas fait les tests car pas sur de bien comprendre ce qu'il faut et le sujet.
 }
 class Coupon {
     constructor(reduction) {
