@@ -69,13 +69,13 @@ describe('Panier', () => {
         const coupon = new Coupon(15); 
     
         panier.ajouterArticle(article, 1);
-        const articlesPrix = {
-            "Pomme": 100
-        };
-        panier.appliquerCoupon(coupon, articlesPrix);
+        // const articlesPrix = {
+        //     "Pomme": 100
+        // };
+        panier.appliquerCoupon(coupon, article.prix);
     
        
-        expect(panier.calculerMontantTotal(articlesPrix)).toBe(85);
+        expect(panier.calculerMontantTotal(article.prix)).toBe(85);
     });
     
 
