@@ -1,0 +1,4 @@
+enfaite je comprends mal la différence entre mon test de "appliquer remise" et "appliquer coupon",
+j'ai l'impression de faire 
+la meme chose, avec une qui fonctionne, et une qui fonctionne pas. 
+Mais du coup j'ai " juste " le appliquer remise qui fonctionne plutot bien ( je pense )

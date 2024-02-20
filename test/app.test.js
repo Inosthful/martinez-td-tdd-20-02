@@ -77,8 +77,6 @@ describe('Panier', () => {
        
         test = expect(panier.calculerMontantTotal(article.prix)).toBe(85);
         // test = expect(panier.calculerMontantTotal(articlePrix)).toBe(85);
-
-        // aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
     });
     
 
